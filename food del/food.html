@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Food Delivery</title>
+    <link rel="stylesheet" href="food.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1210px) " href="phone.css">
+    <link rel="stylesheet" media="screen and (max-width: 748px) " href="phonethird.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo">
+        <img src="logofinal.png" alt="Online MEal Order.com" />
+      </div>
+
+      <ul>
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#">Services</a></li>
+        <li class="item"><a href="#">About Us</a></li>
+        <li class="item"><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <h1 class="h-primary">Welcome to Online Meal</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
+        repudiandae quae consectetur rerum asperiores, vel, molestiae soluta
+        excepturi, ipsa distinctio numquam enim iste? Eaque amet cum repudiandae
+        nulla ipsum quidem perferendis quia doloribus assumenda?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt mollitia
+        soluta blanditiis id voluptatem. Voluptatum ex architecto aspernatur
+        fugit consectetur.
+      </p>
+      <button class="btn">Order Now</button>
+    </section>
+    <section class="services-container">
+      <h1 class="h-primaryone center">Our Services</h1>
+      <div id="services">
+        <div class="box"><img src="img/burfinal.png" alt="burger">
+        <h2 class="h-secondary center">Fast Food</h2>
+        <p class="center2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente facere repellendus dolores dicta excepturi asperiores veritatis omnis odit reprehenderit impedit!</p>
+        </div>
+        <div class="box2"><img src="img/delfinal.png" alt="delivery">
+            <h2 class="h-secondary center">Bulk Ordering</h2>
+            <p class="center2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente facere repellendus dolores dicta excepturi asperiores veritatis omnis odit reprehenderit impedit!</p>
+        </div>
+        <div class="box3"><img src="img/rice roti.jpeg" alt="burger">
+            <h2 class="h-secondary center">Indoor Dining</h2>
+            <p class="center2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente facere repellendus dolores dicta excepturi asperiores veritatis omnis odit reprehenderit impedit!</p>
+        </div>
+    </section>
+    <section id="clients-section">
+        <h1 class="tertiary">Our Clients</h1>
+        <div id="clients">
+            <div class="clients-item">
+                <img src="img/appfinal.png" alt="our clients">
+                <img src="img/microfinal.png" alt="our clients">
+                <img src="img/googlefinal.png" alt="our clients">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-contact">Contact Us</h1>
+
+    <!--  -->
+        <div id="pleaseenter">
+            <div class="reserve">
+                <form action="/action_page.php">
+                    <input class="w3-container w3-input w3-padding-16" name="name" id="yname" placeholder="Name" required>
+            </div>
+
+            <div class="number">
+                    <input class="w3-container w3-input w3-padding-16" name="quantity" id="yquant" min="1" max="20" placeholder="1-20" required>
+            </div>
+
+            <div class="dateof">
+                    <input class="w3-container w3-input w3-padding-16" type="datetime-local" id="visittime" name="visittime" required>
+            </div>
+
+            <div class="require">
+                    <input class="w3-container w3-input w3-padding-16" id="req" placeholder="Special Requirement?">
+            </div>
+
+            <div class="enterphone">
+                    <input class="w3-container	w3-input w3-padding-16" type="tel" id="phone" placeholder="Mobile Number" name="phone" pattern="[0-9]{10}" required><br><br>
+            </div>
+
+            <div class="inputsub">
+                    <input type="submit" class="w3-container w3-cursive w3-tag-padding w3-tag w3-yellow w3-container w3-border w3-border-red" id="submitnoti" value="Notify Us!">
+            </div>
+        </div>
+                </form>
+    </section>
+    <footer id="border">
+      <div class="foot">
+        Copyright &copy; www.onlinemeal.com |All Rights Reserved.|
+      </div>
+    </footer>
+
+    <!--  -->
+
+
+  </body>
+</html>
